@@ -13,7 +13,6 @@ body,
 
 .container {
   min-height: 100%;
-  padding: 45px 40px 30px;
 }
 
 .nav {
@@ -35,4 +34,8 @@ body,
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.068rem;
+}
+
+.main {
+  padding: 45px 40px 30px;
 }
