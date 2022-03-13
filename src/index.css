@@ -37,13 +37,19 @@ body,
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 27px 40px 10px;
+  overflow: auto;
 }
 
 .card {
   display: flex;
   align-items: center;
   gap: 19px;
+  max-width: 450px;
   padding: 18px 0;
   border-bottom: 1px solid #f5f5f5;
 }
